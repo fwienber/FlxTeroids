@@ -25,9 +25,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jangaroo_version>0.8.1</jangaroo_version>
-    <jangaroo_libs_version>0.8.3-SNAPSHOT</jangaroo_libs_version>
-    <jetty_version>7.0.2.v20100331</jetty_version>
+    <jangaroo_version>0.8.3</jangaroo_version>
+    <jangaroo_libs_version>0.8.5</jangaroo_libs_version>
+    <jetty_version>7.2.2.v20101205</jetty_version>
   </properties>
 
   <build>
@@ -74,6 +74,7 @@
           </webAppConfig>
           <webAppSourceDirectory>${project.build.directory}/${project.artifactId}-${project.version}</webAppSourceDirectory>
           <stopKey>STOPME</stopKey>
+          <stopPort>8081</stopPort>
         </configuration>
       </plugin>
       
